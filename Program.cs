@@ -6,7 +6,8 @@ namespace NonLinearEquationsLab
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NLE.RunNewtonMethod(NLE.GetNFunctions(10));
+            //NLE.RunModifiedNewtonMethod(NLE.GetTwoFunctions());
         }
     }
 }
